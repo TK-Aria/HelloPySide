@@ -7,7 +7,7 @@ from PySide2.QtCore import QFile
 if __name__ == "__main__":
 	app = QApplication(sys.argv)
 
-	file = QFile("View/helloworld.ui")
+	file = QFile("../../ui/helloworld.ui")
 	file.open(QFile.ReadOnly)
 
 	loader = QUiLoader()
@@ -16,4 +16,3 @@ if __name__ == "__main__":
 	window.show()
 
 	sys.exit(app.exec_())
-

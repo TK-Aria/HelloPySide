@@ -1,0 +1,13 @@
+{
+    "name": "pyside2-x11forwarding",
+    "context": "..",
+    "dockerFile": "../container/Dockerfile",
+    "settings": {
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"python.pythonPath": "/usr/local/bin/python"
+    },
+    "extensions": [
+		"ms-python.python",
+		"ms-python.vscode-pylance"
+    ]
+}
