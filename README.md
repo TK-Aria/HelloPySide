@@ -1,4 +1,4 @@
-# HelloPySide
+# learning-for-maya-pyside
 
 ## Install
 - 
