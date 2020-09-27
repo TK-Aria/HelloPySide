@@ -5,9 +5,9 @@ from PySide2.QtWidgets import QApplication
 from PySide2.QtCore import QFile
 
 if __name__ == "__main__":
-	app = QApplication(sys.argv)
+	app = QApplication.instance()
 
-	file = QFile("../../ui/helloworld.ui")
+	file = QFile("D:\workspace\Qt\HelloPySide\ui\helloworld.ui")
 	file.open(QFile.ReadOnly)
 
 	loader = QUiLoader()

@@ -1,6 +1,8 @@
 # https://hub.docker.com/r/bildcode/pyside2
 FROM bildcode/pyside2
 
+COPY ./container/.bashrc ~/.bashrc
+
 #FROM python:3.8.2
 #
 #RUN apt-get update --yes
