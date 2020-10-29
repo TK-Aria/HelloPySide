@@ -1,4 +1,4 @@
-# learning-for-maya-pyside
+# learning-for-maya-gui
 
 ## x11 forwarding
 
